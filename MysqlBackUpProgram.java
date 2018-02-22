@@ -3,7 +3,7 @@ package com.github.thiwanka92;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MysqlBackUpApp {
+public class MysqlBackUpProgram {
 	public static void main(String[] args) {
 	//  NOTE: Date format
     	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
