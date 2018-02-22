@@ -21,4 +21,14 @@ mysqldump               -> This .exe file located in your mysql installation dir
 -r                      -> Backup file save location
 ```
 
+### Restoring the MySQL database
 
+> To restore a saved MySQL database, the following parameters can be used.
+
+```
+mysql                   -> This .exe file located in your mysql installation directory bin folder. 
+                           ex C:\..\\bin\\mysql\\mysql..\\bin\\mysql
+--user=                 -> Database username ex: root
+--password=             -> If database has password you should provide it. If not leave it as a blank
+source                  -> Backup file location
+```
