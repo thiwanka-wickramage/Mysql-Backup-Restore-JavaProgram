@@ -10,12 +10,14 @@ mysqldump -h --port -u --password= --add-drop-database -B -r \
 ```
 
 **In this java program we are using these commonds parameters to create a backup.**
-
-> **mysqldump**  -> *This .exe file located in your mysql installation directory bin folder. ex C:\..\\bin\\mysql\\mysql..\\bin\\mysqldump*</br>
-> **-h**         -> *Database host server name or server IP. ex:localhost or 127.20.15.241* </br>
-> **--port**     -> *Database port ex: 3306*</br>
-**-u**         -> *Database username ex: root*</br>
-**--password=** -> *If database has password you should provide it. If not leave it as a blank*</br>
-**--add-drop-database -B=** -> *Database name*</br>
-**-r** -> *Backfile save location *
+```
+mysqldump               -> This .exe file located in your mysql installation directory bin folder. 
+                           ex C:\..\\bin\\mysql\\mysql..\\bin\\mysqldump
+-h                      -> Database host server name or server IP. ex:localhost or 127.20.15.241
+--port                  -> Database port ex: 3306
+-u                      -> Database username ex: root
+--password=             -> If database has password you should provide it. If not leave it as a blank
+--add-drop-database -B= -> Database name
+-r                      -> Backfile save location
+```
 
