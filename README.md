@@ -9,7 +9,7 @@ If you have used MySQL for a while, you have probably used mysqldump to backup y
 mysqldump -h --port -u --password= --add-drop-database -B -r \
 ```
 
-**In this java program we are using these commonds parameters to create a backup.**
+**In this java program we are use these parameters to create a backup.**
 ```
 mysqldump               -> This .exe file located in your mysql installation directory bin folder. 
                            ex C:\..\\bin\\mysql\\mysql..\\bin\\mysqldump
@@ -20,4 +20,5 @@ mysqldump               -> This .exe file located in your mysql installation dir
 --add-drop-database -B= -> Database name
 -r                      -> Backfile save location
 ```
+
 
