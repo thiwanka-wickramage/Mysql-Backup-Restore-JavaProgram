@@ -9,8 +9,8 @@ public class MysqlBackUpApp {
     	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
     	
 	//  NOTE: Creating Database Constraints
-		String dbHost = "localhost"; //host server IP
-		String dbPort = "3306";
+	String dbHost = "localhost"; //host server IP
+	String dbPort = "3306";
         String dbName = "testDb";
         String dbUser = "root";
         String dbPass = "abc@123";
