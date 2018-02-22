@@ -18,7 +18,7 @@ mysqldump               -> This .exe file located in your mysql installation dir
 -u                      -> Database username ex: root
 --password=             -> If database has password you should provide it. If not leave it as a blank
 --add-drop-database -B= -> Database name
--r                      -> Backfile save location
+-r                      -> Backup file save location
 ```
 
 
